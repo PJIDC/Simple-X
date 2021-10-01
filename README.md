@@ -6,9 +6,9 @@ Present:https://github.com/KawaiiZapic/Present<br>
 Simple-X是一Simple修改版主题，他比原版Simple更加的舒适、好看<br>
 Simple-X将会持续更改Simple让博客更加的好看<br>
 Demo:iguangdie.xyz<br>
-版本:Beta 1<br>
+版本:Beta 1.1<br>
 状态:正在更新
-## 目前版本已知的问题
-Present主页无法在Gridea里设置自定义链接，需要用户自己改码
+## 目前版本的缺陷
+无法自定义六个链接
 ## 如何使用？
 放入Gridea源文件的theme即可使用
