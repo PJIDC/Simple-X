@@ -4,6 +4,54 @@
   "author": "PhyllisJohnson",
   "customConfig": [
     {
+      "name": "phome",
+      "label": "所有文章-链接",
+      "group": "Present链接设置",
+      "value": "/archives/",
+      "type": "textarea",
+      "note": "建议不要更改这里"
+    },
+    {
+      "name": "pbilibili",
+      "label": "哔哩哔哩-链接",
+      "group": "Present链接设置",
+      "value": "",
+      "type": "textarea",
+      "note": "此处填入你的个人空间链接"
+    },
+    {
+      "name": "pqq",
+      "label": "QQ-链接",
+      "group": "Present链接设置",
+      "value": "",
+      "type": "textarea",
+      "note": "此处填入你的QQ推广链接"
+    },
+    {
+      "name": "ptg",
+      "label": "Telegram-链接",
+      "group": "Present链接设置",
+      "value": "",
+      "type": "textarea",
+      "note": "此处填入你的TG链接"
+    },
+    {
+      "name": "psteam",
+      "label": "Steam-链接",
+      "group": "Present链接设置",
+      "value": "",
+      "type": "textarea",
+      "note": "此处填入你的Steam主页链接"
+    },
+    {
+      "name": "pgithub",
+      "label": "Github-链接",
+      "group": "Present链接设置",
+      "value": "",
+      "type": "textarea",
+      "note": "此处填入你的Github链接"
+    },
+    {
       "name": "sidebarWidth",
       "label": "菜单栏宽度",
       "group": "布局",
