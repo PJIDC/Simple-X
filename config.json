@@ -63,7 +63,7 @@
       "name": "pbg2",
       "label": "背景2",
       "group": "Present随机背景设置",
-      "value": "",
+      "value": "/media/images/bg2.jpeg",
       "type": "textarea",
       "note": "此处填入你的背景图片链接"
     },
@@ -71,7 +71,7 @@
       "name": "pbg3",
       "label": "背景3",
       "group": "Present随机背景设置",
-      "value": "",
+      "value": "/media/images/bg3.png",
       "type": "textarea",
       "note": "此处填入你的背景图片链接"
     },
