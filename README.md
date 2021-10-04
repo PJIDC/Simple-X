@@ -8,6 +8,8 @@ Simple-X将会持续更改Simple让博客更加的好看<br>
 Demo:iguangdie.xyz<br>
 版本:Beta 2<br>
 状态:正在更新
+## 设置随机语句
+随机语句因为Gridea自身的原因需要自行更改index.ejs
 ## 目前版本的缺陷
 无法自定义六个链接
 ## 如何使用？
