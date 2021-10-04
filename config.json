@@ -84,6 +84,30 @@
       "note": "此处填入你的背景图片链接"
     },
     {
+      "name": "valine",
+      "label": "是否使用Valine作为评论系统",
+      "group": "Valine设置",
+      "type": "switch",
+      "value": false,
+      "note": "启用Valine需先关闭Gridea自带的评论系统开关。"
+    },
+    {
+      "name": "vappid",
+      "label": "Appid",
+      "group": "Valine设置",
+      "value": "",
+      "type": "textarea",
+      "note": "此处填入你的Appid"
+    },
+    {
+      "name": "vappkey",
+      "label": "Appkey",
+      "group": "Valine设置",
+      "value": "",
+      "type": "textarea",
+      "note": "此处填入你的Appkey"
+    },
+    {
       "name": "sidebarWidth",
       "label": "菜单栏宽度",
       "group": "布局",
