@@ -59,21 +59,11 @@
                         <div class="link-icon"><i class="fa fa-github"></i></div>
                         <div>Github</div>
                     </a>
-                </div><div class="self-content article-container">
+                </div><div class="self-content article-container" style="overflow: auto">
 				<% posts.forEach(function(post) { %>
                 <p class="article-item"><a target="_blank" class="article-title" href="<%= post.link %>"><%= post.title %> </a><span class="article-time"><%= post.dateFormat %></span>
 					<% }); %>
 				</p>
-                    <div class="article-loading flex-center">
-                        <svg style="visibility: hidden" class="loading-indicator" width="128" height="128">
-                            <g class="circle-rotating">
-                                <g class="circle-step">
-                                    <circle cx="64" cy="64" r="56" class="circle-line"></circle>
-                                </g>
-                            </g>
-                        </svg>
-                        <span class="text-center">Loading...</span>
-                    </div>
                 </div><div class="self-content">
                     <div class="info-container">
                         一个初一生，爱数码<br>酷安：@PhyllisJohnson
