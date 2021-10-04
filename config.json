@@ -4,6 +4,14 @@
   "author": "PhyllisJohnson",
   "customConfig": [
     {
+      "name": "pabout",
+      "label": "关于",
+      "group": "Present关于设置",
+      "value": "一个爱数码的人",
+      "type": "textarea",
+      "note": "此处填入你要写入的文本"
+    },
+    {
       "name": "phome",
       "label": "所有文章-链接",
       "group": "Present链接设置",
@@ -55,7 +63,7 @@
       "name": "pbg1",
       "label": "背景1",
       "group": "Present随机背景设置",
-      "value": "/media/images/bg1.png",
+      "value": "/media/images/bg1.jpg",
       "type": "textarea",
       "note": "此处填入你的背景图片链接"
     },
@@ -63,7 +71,7 @@
       "name": "pbg2",
       "label": "背景2",
       "group": "Present随机背景设置",
-      "value": "/media/images/bg2.jpeg",
+      "value": "/media/images/bg2.png",
       "type": "textarea",
       "note": "此处填入你的背景图片链接"
     },
