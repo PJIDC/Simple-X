@@ -43,13 +43,6 @@
               </div>
             <% } %>
     <div id="vcomments"></div>
-    <script>
-        new Valine({
-            el: '#vcomments',
-            appId: 'mrCuqPfvzFD1ttlWAPk98bzP-MdYXbMMI',
-            appKey: 'R7p5ABqEKh0NmGW0jAsPR7l8'
-        })
-    </script>
             <% if (typeof commentSetting !== 'undefined' && commentSetting.showComment) { %>
               <% if (commentSetting.commentPlatform === 'gitalk') { %>
                 <div id="gitalk-container" data-aos="fade-in"></div>
@@ -58,7 +51,16 @@
                 <div id="disqus_thread" data-aos="fade-in"></div>
               <% } %>
             <% } %>
-
+			  
+			  <% if(typeof site.customConfig['valine']!=='undefined' && site.customConfig['valine']) { %>
+    <script>
+        new Valine({
+            el: '#vcomments',
+            appId: '<%= site.customConfig['vappid']%>',
+            appKey: '<%= site.customConfig['vappkey']%>'
+        })
+    </script>
+			  <% } %>
           </div>
 
         </div>
