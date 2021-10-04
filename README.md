@@ -1,4 +1,6 @@
 # Simple-X
+## 贡献者
+https://github.com/iVampireSP
 ## 使用的代码
 Present:https://github.com/KawaiiZapic/Present<br>
 原版Simple:https://github.com/getgridea/gridea-theme-simple
