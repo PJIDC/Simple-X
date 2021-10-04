@@ -99,10 +99,16 @@
 <script src="<%= themeConfig.domain %>/media/static/js/main.js"></script>
 <script>
     (function () {
-        var feedType = "xml";
+                var feedType = "xml";
         var feedPath = "<%= themeConfig.domain %>/atom.xml";
         var bgArr = [{
-            "url": "<%= themeConfig.domain %>/media/images/background-1.png",
+            "url": "<%= site.customConfig['pbg1']%>",
+            "thumb": ""
+        },{
+            "url": "<%= site.customConfig['pbg2']%>",
+            "thumb": ""
+        },{
+            "url": "<%= site.customConfig['pbg3']%>",
             "thumb": ""
         },];
         var senArr = [
